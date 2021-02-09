@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <>
-      <h1>Administrador de Pacientes 3</h1>
+      <h1>Administrador de Pacientes 4</h1>
       <div className="container">
         <div className="row">
           <div className="one-half column">
