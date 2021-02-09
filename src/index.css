@@ -1,7 +1,7 @@
 html {
   min-height: 100%;
 }
-.contenedor {
+.admVeterinaria {
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -10,6 +10,28 @@ html {
   min-height: 100%;
   padding-bottom: 5rem;
 }
+.presupuesto {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #004e92, #000428); 
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.contenido-principal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.contenido {
+  padding:20px;
+}
+
 h1, h2  {
   color: white;
   padding: 3rem 0;
@@ -41,7 +63,29 @@ h1, h2  {
 label {
   color: white;
 }
-
+.gastos-realizados  {
+  margin-bottom: 2rem;
+}
+.gastos-realizados li{
+  list-style: none;
+  margin-bottom: 0rem;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem 0;
+}
+.gastos-realizados li:last-of-type {
+  margin-bottom: 0!important;
+}
+.gastos-realizados li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+}
+.gastos-realizados li p .gasto {
+  background-color: #004085;
+  padding: 1rem;
+  color:white;
+}
 input[type="date"],
 input[type="time"] {
   height: 38px;
@@ -92,3 +136,33 @@ input[type="time"] {
   text-align: center;
   font-family:  'Staatliches', cursive;
 } 
+.error {
+  text-align: center;
+}
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-primary {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}

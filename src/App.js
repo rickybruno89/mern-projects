@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import AdministradorTurnosVeterinaria from "./pages/AdministradorTurnosVeterinaria";
 import Home from "./pages/Home";
+import AdministradorTurnosVeterinaria from "./pages/AdministradorTurnosVeterinaria";
+import Presupuesto from "./pages/Presupuesto";
 
 const App = () => (
   <Router>
@@ -10,6 +11,7 @@ const App = () => (
       path="/administrador-turnos-veterinaria"
       component={AdministradorTurnosVeterinaria}
     />
+    <Route path="/presupuesto" component={Presupuesto} />
   </Router>
 );
 

@@ -3,16 +3,23 @@ import { useHistory } from "react-router-dom";
 
 const Home = () => {
   const history = useHistory();
-  const handleClick = () => history.push("/administrador-turnos-veterinaria");
+  const handleClick = (page) => history.push(page);
 
   return (
     <div className="container">
       <button
         type="button"
         style={{ marginRight: "10px" }}
-        onClick={handleClick}
+        onClick={() => handleClick("/administrador-turnos-veterinaria")}
       >
         Administrador de Turnos Veterinaria
+      </button>
+      <button
+        type="button"
+        style={{ marginRight: "10px" }}
+        onClick={() => handleClick("/presupuesto")}
+      >
+        Presupuesto
       </button>
     </div>
   );

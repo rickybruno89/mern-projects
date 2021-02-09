@@ -24,8 +24,8 @@ const AdministradorTurnosVeterinaria = () => {
   };
 
   return (
-    <div className="contenedor">
-      <h1>Administrador de Pacientes</h1>
+    <div className="admVeterinaria">
+      <h1>Administrador de Turnos Veterinaria</h1>
       <div className="container">
         <div className="row">
           <div className="one-half column">
