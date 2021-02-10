@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import ControlPresupuesto from "../components/6-presupuesto/ControlPresupuesto";
-import Formulario from "../components/6-presupuesto/Formulario";
-import Listado from "../components/6-presupuesto/Listado";
-import Pregunta from "../components/6-presupuesto/Pregunta";
+import ControlPresupuesto from "../../components/6-presupuesto/ControlPresupuesto";
+import Formulario from "../../components/6-presupuesto/Formulario";
+import Listado from "../../components/6-presupuesto/Listado";
+import Pregunta from "../../components/6-presupuesto/Pregunta";
 
 const Presupuesto = () => {
   const [presupuesto, setPresupuesto] = useState(0);

@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import AdministradorTurnosVeterinaria from "./pages/5-administradorTurnosVeterinaria/AdministradorTurnosVeterinaria";
+import Presupuesto from "./pages/6-presupuesto/Presupuesto";
+import CotizadorSeguroAutomovil from "./pages/7-cotizadorSeguro/CotizadorSeguroAutomovil";
 import Home from "./pages/Home";
-import AdministradorTurnosVeterinaria from "./pages/AdministradorTurnosVeterinaria";
-import Presupuesto from "./pages/Presupuesto";
 
 const App = () => (
   <Router>
@@ -12,6 +13,7 @@ const App = () => (
       component={AdministradorTurnosVeterinaria}
     />
     <Route path="/presupuesto" component={Presupuesto} />
+    <Route path="/cotizador-seguro-automovil" component={CotizadorSeguroAutomovil} />
   </Router>
 );
 

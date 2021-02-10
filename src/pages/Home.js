@@ -21,6 +21,13 @@ const Home = () => {
       >
         Presupuesto
       </button>
+      <button
+        type="button"
+        style={{ marginRight: "10px" }}
+        onClick={() => handleClick("/cotizador-seguro-automovil")}
+      >
+        Cotizador Seguro Automóvil
+      </button>
     </div>
   );
 };

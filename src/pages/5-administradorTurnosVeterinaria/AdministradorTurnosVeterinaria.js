@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Cita from '../components/5-administradorTurnosVeterinaria/Cita';
-import Formulario from '../components/5-administradorTurnosVeterinaria/Formulario';
+import Cita from '../../components/5-administradorTurnosVeterinaria/Cita';
+import Formulario from '../../components/5-administradorTurnosVeterinaria/Formulario';
 
 const AdministradorTurnosVeterinaria = () => {
   let citasIniciales = JSON.parse(localStorage.getItem("citas"));
