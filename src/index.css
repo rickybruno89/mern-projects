@@ -10,6 +10,15 @@ html {
   min-height: 100%;
   padding-bottom: 5rem;
 }
+
+.cotizadorSeguro{
+  height: 100vh;
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #904e95, #e96443); 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .presupuesto {
   height: 100vh;
   margin: 0;
